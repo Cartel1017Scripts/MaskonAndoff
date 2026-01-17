@@ -1,11 +1,13 @@
 # CRP-MaskOff
 
-A simple FiveM script for QB-Core servers that allows players to toggle their mask on and off using commands.
+A simple FiveM script for QB-Core servers that allows players to toggle their mask and vest on and off using commands.
 
 ## Features
 
 - `/maskoff` - Removes the currently worn mask and stores it
 - `/maskon` - Puts the stored mask back on
+- `/vestoff` - Removes the currently worn vest and stores it
+- `/veston` - Puts the stored vest back on
 - Persistent mask data until player respawns
 - QB-Core notification integration
 - Simple and lightweight
@@ -36,14 +38,14 @@ Config.Notifications = {
 ## Requirements
 
 - QB-Core Framework
-- ESX-Legacy (with minor modifications to client.lua if needed)
 
 ## Notes
 
 - The mask data is stored until the player respawns
-- Only works with masks (drawable variation 1)
+- Only works with masks and vest
 - Uses QB-Core's built-in notification system
 
 ## Support
 
 For support or issues, please contact the development team.
+
